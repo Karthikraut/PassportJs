@@ -8,7 +8,7 @@ exports.connectMongoose = ()=>{
 };
 
 const userSchema = new mongoose.Schema({
-    userName: {
+    username: {
         type:String,
         required: true,
         unique: true,
